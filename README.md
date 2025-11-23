@@ -1,8 +1,8 @@
 <img width="856" height="473" alt="image" src="https://github.com/user-attachments/assets/2918c6d7-6126-43a1-938d-83a147bd39ca" />
 
 
-## Local Environment | Development 
-KIND is primarily designed for local environments — it runs an entire Kubernetes cluster inside Docker containers, meaning each node (control plane or worker) is just a container. Its provides a flexible way to create multi-node Kubernetes clusters for development and testing purposes, especially useful for scenarios where you need to simulate a more complex, distributed environment.
+## Local Stack | Developer
+LocalStack makes it easy to integrate cloud-native testing into your CI pipelines, without the complexity of managing real AWS environments. Running fully local AWS emulation inside your CI jobs lets you automate application testing, catch issues earlier, and ship with confidence
 
 
 🚀 It’s especially helpful for:
