@@ -2,7 +2,7 @@
 
 
 ## Local Stack | Developer
-LocalStack makes it easy to integrate cloud-native testing into your CI pipelines, without the complexity of managing real AWS environments. Running fully local AWS emulation inside your CI jobs lets you automate application testing, catch issues earlier, and ship with confidence
+LocalStack makes it easy to integrate cloud-native testing into your CI pipelines, without the complexity of managing real AWS environments. Running fully local environment emulation inside your CI jobs lets you automate application testing, catch issues earlier, and ship with confidence
 
 
 🚀 It’s especially helpful for:
