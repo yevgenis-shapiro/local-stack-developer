@@ -24,3 +24,4 @@ variable "additional_control_planes_count" {
   type        = number
   default     = 2
 }
+
