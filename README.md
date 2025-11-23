@@ -1,4 +1,5 @@
-<img width="856" height="473" alt="image" src="https://github.com/user-attachments/assets/2918c6d7-6126-43a1-938d-83a147bd39ca" />
+<img width="856" height="473" alt="image" src="https://github.com/user-attachments/assets/4a688ed6-63dc-46ca-9ef7-a1a0ca75ed50" />
+
 
 
 ## Local Stack | Developer
