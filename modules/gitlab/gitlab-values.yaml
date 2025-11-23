@@ -1,0 +1,60 @@
+
+global:
+  hosts:
+    domain: "${gitlab_domain}"         # will be substituted by Terraform
+    externalIP: "${external_ip}"       # will be substituted by Terraform
+    gitlab:
+      name: "gitlab.${gitlab_domain}"
+    registry:
+      name: "registry.${gitlab_domain}"
+    minio:
+      name: "minio.${gitlab_domain}"
+  ingress:
+    enabled: true
+    class: "${ingress_class}"
+    provider: "nginx"
+    configureCertmanager: false
+  storageClass: "${storage_class}"
+  time_zone: "${time_zone}"
+  email:
+    from: "${gitlab_email_from}"
+    display_name: "GitLab"
+    reply_to: "${gitlab_email_reply_to}"
+  minio:
+    enabled: "${minio_enabled}"
+
+certmanager:
+  install: false
+
+nginx-ingress:
+  enabled: false
+
+postgresql:
+  persistence:
+    size: "${postgres_storage_size}"
+
+redis:
+  master:
+    persistence:
+      size: "${redis_storage_size}"
+
+gitlab:
+  gitaly:
+    persistence:
+      size: "${gitaly_storage_size}"
+  runner:
+    install: "${gitlab_runner_enabled}"
+  toolbox:
+    backups:
+      cron:
+        enabled: "${backup_enabled}"
+        schedule: "${backup_schedule}"
+
+registry:
+  enabled: "${registry_enabled}"
+  storage:
+    secret: "${registry_storage_secret}"
+
+global:
+  initialRootPassword:
+    secret: "${gitlab_root_password}"   # leave empty if auto-generated
