@@ -1,4 +1,3 @@
-
 # Required variables
 variable "gitlab_domain" {
   description = "Domain for GitLab installation"
