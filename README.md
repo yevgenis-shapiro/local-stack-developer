@@ -1,7 +1,5 @@
 <img width="856" height="473" alt="image" src="https://github.com/user-attachments/assets/4a688ed6-63dc-46ca-9ef7-a1a0ca75ed50" />
 
-
-
 ## Local Stack | Developer
 LocalStack makes it easy to integrate cloud-native testing into your CI pipelines, without the complexity of managing real AWS environments. Running fully local environment emulation inside your CI jobs lets you automate application testing, catch issues earlier, and ship with confidence
 
